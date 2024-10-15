@@ -1,6 +1,6 @@
 import express from "express";
 import {invoice} from "./Invoice/invoice"
-import {getStatistics} from "./Statistics/GetStatistics"
+import {getStatistics} from "./Statistics/getStatistics"
 
 export const v1 = express.Router();
 

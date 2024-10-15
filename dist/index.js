@@ -14,7 +14,7 @@ const app = (0, express_1.default)();
 const PORT = process.env.PORT || 21560;
 const ratelimits = (0, express_rate_limit_1.default)({
     windowMs: 60 * 1000,
-    max: 30,
+    max: 45,
     message: "You have exceeded the rate limit.",
     headers: true
 });
